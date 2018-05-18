@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Resgistration!{% endblock %}
+
+{% block body %}
+
+    <section>
+        {{ form_start(form) }}
+        {{ form_row(form.name)}}
+
+        {{ form_end(form) }}
+        <button type="submit">Valide moi grand fou ! </button>
+
+
+
+
+    </section>
+{% endblock %}
